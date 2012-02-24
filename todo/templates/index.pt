@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="scripts/jquery-1.6.2.min.js"></script>
+        <script type="text/javascript" src="scripts/underscore.js"></script>
+        <script type="text/javascript" src="scripts/handlebars.1.0.0.beta.3.js"></script>
+        <script type="text/javascript" src="scripts/backbone.js"></script>
+        <script type="text/javascript" src="scripts/app/config/initializers/jammit_handlebars_templates.js"></script>
+        <script type="text/javascript" src="scripts/app/helpers/plural.js"></script>
+        <script src="/assets/templates.jst" type="text/javascript"></script>
+        <script src="/scripts/app/views/todo_item.js" type="text/javascript"></script>
+        <script src="/scripts/app/views/todos.js" type="text/javascript"></script>
+        <script src="/scripts/app/models/todo.js" type="text/javascript"></script>
+                
+        <script type="text/javascript" src="scripts/application.js"></script>
+        <link rel=stylesheet href=/static/todo.css>
+    </head>
+    <body>
+        <div id="todoapp">
+
+         <div class="title">
+           <h1>MixRank</h1>
+         </div>
+
+         <div class="content">
+
+           <div id="create-todo">
+             <input id="new-todo" placeholder="Task?" type="text" />
+             <span class="ui-tooltip-top" style="display:none;">Press Enter to save this task</span>
+           </div>
+
+           <div id="todos">
+             <ul id="todo-list"></ul>
+           </div>
+
+           <div id="todo-stats"></div>
+
+         </div>
+
+        </div>
+
+    </body>
+</html>
